@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '8.0'
   s.name         = "QiitaDomainInterface"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "QiitaDomainInterface."
 
   s.description  = <<-DESC
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.source_files  = "QiitaDomainInterface/**/*.{swift}"
+  s.source_files  = "QiitaDomainInterface/**/*.{swift}", "QiitaDomainInterface/*.{swift}"
   s.exclude_files = "Classes/Exclude"
 
   s.dependency "QiitaKit"

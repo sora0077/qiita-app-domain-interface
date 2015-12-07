@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol PreferenceProtocol {
+public protocol PreferenceProtocol {
     
     var authenticatedUserId: String? { get set }
     

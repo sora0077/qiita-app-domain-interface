@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.platform = :ios
   s.ios.deployment_target = '8.0'
-  s.name         = "QiitaKit"
+  s.name         = "QiitaDomainInterface"
   s.version      = "0.0.1"
   s.summary      = "QiitaDomainInterface."
 
@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
                    Qiita Domain Interface
                    DESC
 
-  s.homepage     = "https://github.com/sora0077/QiitaDomainInterface"
+  s.homepage     = "https://github.com/sora0077/qiita-app-domain-interface"
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author       = { "" => "" }
-  s.source       = { :git => "https://github.com/sora0077/QiitaDomainInterface.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/sora0077/qiita-app-domain-interface.git", :tag => "#{s.version}" }
 
 
 

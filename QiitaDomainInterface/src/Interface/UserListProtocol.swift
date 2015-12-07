@@ -20,7 +20,7 @@ public protocol UserListRepository {
 
 extension UserListRepository {
     
-    func update() -> Future<[UserProtocol], QiitaInfraError> {
+    public func update() -> Future<[UserProtocol], QiitaInfraError> {
         return update(force: false)
     }
 }

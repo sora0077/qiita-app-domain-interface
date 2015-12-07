@@ -20,7 +20,7 @@ public protocol CommentListRepository {
 
 extension CommentListRepository {
     
-    func update() -> Future<[CommentProtocol], QiitaInfraError> {
+    public func update() -> Future<[CommentProtocol], QiitaInfraError> {
         return update(force: false)
     }
 }
